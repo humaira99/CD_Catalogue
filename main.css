@@ -1,0 +1,233 @@
+
+#nav {
+  left: 0;
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0px;
+	list-style: none;
+	background-color: #95A5A6;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+  font-family: Century Gothic, bold;
+  position: fixed;
+  top: 0px;
+}
+
+#nav li {
+	float: left;
+  padding: 0;
+  margin: 0;
+}
+
+#nav li a {
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+  transition: .3s background-color;
+}
+
+#nav li a:hover {
+	color: #CACFD2;
+	background-color: #F06292;
+}
+
+#nav a.active {
+  background-color: #D59FDA;
+  color: white;
+  cursor: default;
+}
+
+h1{
+  color: #F06292;
+  font-family: Century Gothic;
+}
+
+body{
+    background:  #EEE9E9;
+    font-family: Century Gothic;
+}
+
+h3{
+  color: #F48FB1;
+  text-decoration: underline;
+}
+
+footer{
+  width: 100%;
+  background-color: #95A5A6;
+  font-size: 12px;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+table {
+  font-family: Century Gothic;
+  table-layout: fixed;
+}
+
+td {
+  text-align: left;
+  padding: 15px;
+}
+
+th {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid #999;
+  background-color: #F48FB1;
+  color: white;
+
+}
+
+tr:hover {
+  background-color: #CACFD2;
+}
+
+thead{
+  display: block;
+  overflow: auto;
+}
+
+tbody{
+  display: block;
+  overflow: auto;
+}
+
+th, td{
+  vertical-align: top;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.edit {
+  background-color: #9CE1CE;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 6px;
+  transition-duration: 0.3s;
+  font-family: Century Gothic;
+  text-shadow: none;
+  border: none;
+
+}
+
+.edit:hover{
+  background-color: #56B49B;
+  color: white;
+}
+
+.delete{
+  background-color: #EC5373;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 6px;
+  transition-duration: 0.3s;
+  font-family: Century Gothic;
+  text-shadow: none;
+  border: none;
+}
+
+.delete:hover{
+  background-color: #B01C3B;
+  color: white;
+}
+
+.submit{
+  background-color: #A1EDA6;
+  color: black;
+  padding: 3px 7px;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 6px;
+  transition-duration: 0.3s;
+  font-family: Century Gothic;
+  text-shadow: none;
+  border: none;
+}
+
+.submit:hover{
+  background-color: #5DC063;
+  color: white;
+}
+
+.searchbox{
+  border: 2px solid #A1EDA6;
+}
+
+.addbut{
+  background-color: #D59FDA;
+  color: black;
+  padding: 3px 7px;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 6px;
+  transition-duration: 0.3s;
+  font-family: Century Gothic;
+  text-shadow: none;
+  border: none;
+}
+
+.addbut:hover{
+  background-color: #B576CE;
+  color: white;
+}
+
+.savebut{
+  background-color: #F48FB1;
+  color: black;
+  padding: 3px 7px;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 6px;
+  transition-duration: 0.3s;
+  font-family: Century Gothic;
+  text-shadow: none;
+  border: none;
+}
+
+.savebut:hover{
+  background-color: #D81B60;
+  color: white;
+}
+
+.linktbl{
+  background-color: #3CB6F7;
+  color: black;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 6px;
+  transition-duration: 0.3s;
+  font-family: Century Gothic;
+  text-shadow: none;
+  border: none;
+}
+
+.linktbl:hover{
+  background-color: #257DAC;
+  color: white;
+}
+
+.return{
+  color: #F06292;
+  text-decoration: underline;
+}
